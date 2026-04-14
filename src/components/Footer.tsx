@@ -107,6 +107,14 @@ export default function Footer() {
           <p className="text-xs text-[#8B8A99]">
             &copy; {new Date().getFullYear()} Alveqi. All rights reserved.
           </p>
+          <div className="flex gap-4">
+            <Link href="/privacy" className="text-xs text-[#8B8A99] hover:text-[#06B6D4] transition-colors duration-200">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="text-xs text-[#8B8A99] hover:text-[#06B6D4] transition-colors duration-200">
+              Terms of Service
+            </Link>
+          </div>
           <p className="text-xs text-[#8B8A99]">
             Designed for solo entrepreneurs who use AI.
           </p>
