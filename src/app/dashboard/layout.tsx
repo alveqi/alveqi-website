@@ -7,5 +7,14 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <style>{`
+        body > header {
+          display: none !important;
+        }
+      `}</style>
+      {children}
+    </>
+  );
 }
